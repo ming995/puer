@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "outDir": "dist/cmjs",
+        "rootDir": "./src",
+        "noImplicitAny": true,
+        "target": "es5",
+        "module": "commonjs",
+        "moduleResolution": "node",
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "/config"
+    ]
+}
